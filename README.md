@@ -28,7 +28,7 @@
 
 - Go back to project directory:
   - Run: `cd ..`
-  - 
+    
 - Go to the directory:
   - Run: `cd orb-frontend/`
   
