@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./orb-backend  # Specify the correct build context
+      dockerfile: Dockerfile  # Specify the correct Dockerfile name
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./orb-backend:/app  # Mount the backend directory into the container
+
+  frontend:
+    build:
+      context: ./orb-frontend  # Specify the correct build context
+      dockerfile: Dockerfile  # Specify the correct Dockerfile name
+    ports:
+      - "3000:3000"
+
+
+
+
