@@ -7,7 +7,7 @@
 1. Navigate to your project root directory in the terminal.
 2. Run: `docker compose up --build`
 3. Visit [http://localhost:3000/](http://localhost:3000/)
-4. Username:admin , password:admin
+4. Username: `admin` , password: `admin`
 
 ### On Your Computer:
 
@@ -38,5 +38,5 @@
 #### 3rd Step:
 
 Visit [http://localhost:3000/](http://localhost:3000/)
-Username:admin , password:admin
+Username: `admin` , password: `admin`
 
