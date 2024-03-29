@@ -4,7 +4,7 @@
 
 ### In Docker:
 
-1. Navigate to your project root directory in the terminal.
+1. Navigate to your project folder directory in the terminal.
 2. Run: `docker compose up --build`
 3. Visit [http://localhost:3000/](http://localhost:3000/)
 4. Username: `admin` , password: `admin`
@@ -16,7 +16,7 @@
 #### 1st Step - Backend :
 
 - Go to the directory:
-  - Run: `cd orb-backend`
+  - Run: `cd orb-backend/`
   
 - Install start virtual environment:
   - Run: `source env/bin/active`
@@ -30,7 +30,7 @@
   - Run: `cd ..`
   - 
 - Go to the directory:
-  - Run: `cd orb-frontend`
+  - Run: `cd orb-frontend/`
   
 - Start Frontend:
   - Run: `npm start`
