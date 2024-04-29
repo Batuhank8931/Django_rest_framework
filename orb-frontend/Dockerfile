@@ -9,6 +9,7 @@ COPY . .
 
 # Install frontend dependencies
 RUN npm install
+RUN npm install react-scripts@5.0.1 -g
 
 # Expose the port that React runs on
 EXPOSE 3000
